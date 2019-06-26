@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">NMLibrary</string>
+    <string name="create_account">Create Account</string>
+    <string name="username">Name</string>
+    <string name="course">Class</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sid">Student ID</string>
+    <string name="register">Register</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="profile">Profile</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="forget_password">Forgot Password?</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">Please enter your registered Email ID.</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_review">ReviewActivity</string>
+    <string name="toolbar_title">Books</string>
+    <string name="action_search">Search</string>
+    <string name="search_hint">Type name…</string>
+    <string name="Objective">\nTo acquire, update, maintain and provide a qualitative and quantitative collection of books, periodicals and other instructional material of electronic resources to support the academic programme and educational objectives of the college.
+        \n\nTo include in collection various fields of knowledge as well as of career and character building.
+        \n\nTo provide quality services to faculty and students for achieving their curricular as well as co-curricular goals, with the help of technology, but not as a substitute for personal service.
+        \n\nTo inculcate reading habit among students and to encourage collaborative efforts among library staff and students to maximum utilization of library resources</string>
+    <string name="fybcomsem22018"><a href="https://drive.google.com/open?id=1XvGrXKiOtg11AaSLj3zhn719U7E2SsyB">FYBCOM SEM II APRIL 2018</a></string>
+    <string name="fybcomsem12017"><a href="https://drive.google.com/open?id=1ZgcHZnuWKIlepNvExOUlDge6EU8jleSL">FYBCOM SEM I NOV 2017</a></string>
+    <string name="fybmssem22017"><a href="https://drive.google.com/open?id=0B1_zV6bDJrXOemt5M2RNNklvNUU">FYBMS SEM II 2017</a></string>
+    <string name="fybmssem12016"><a href="https://drive.google.com/open?id=0B1_zV6bDJrXOeWNiT3Qwenh5cms">FYBMS SEM I 2016</a></string>
+    <string name="sybcomsem42018"><a href="https://drive.google.com/open?id=1MiRBuZomk65GIA2LloFkOZuhgvVaQ5Cy">SYBCOM SEM IV APRIL 2018</a></string>
+    <string name="sybcomsem32017"><a href="https://drive.google.com/open?id=1nB17siqdHtgAfi5E7FSeggaxD2Y6Uw8S">SYBCOM SEM III NOV 2017</a></string>
+    <string name="sybmssem42016"><a href="https://drive.google.com/open?id=0B1_zV6bDJrXOUGUtTUpjSWREZFE">SYBMS SEM IV 2016</a></string>
+    <string name="sybmssem32015"><a href="https://drive.google.com/open?id=0B1_zV6bDJrXOVkdoaEgxMnNUYms">SYBMS SEM III 2015</a></string>
+    <string name="tybcomsem62018"><a href="https://drive.google.com/open?id=1nVjm56ZJf2b_ThVTxaZkAaJItaZKW-yx">TYBCOM SEM VI APRIL 2018</a></string>
+    <string name="tybcomsem62017"><a href="https://drive.google.com/open?id=0B1_zV6bDJrXOaXl0RGcxYXAyaGs">TYBCOM SEM VI APRIL 2017</a></string>
+    <string name="tybmssem62017"><a href="https://drive.google.com/open?id=0B1_zV6bDJrXOY2JITmxpM2gxSnc">TYBMS UNI. SEM VI 2017</a></string>
+    <string name="tybmssem52016"><a href="https://drive.google.com/open?id=0B1_zV6bDJrXOZ2JWNzVlRllqc0E">TYBMS SEM V 2016</a></string>
+    <string name="fybfmsem12017"><a href="https://drive.google.com/open?id=1MEVk4Xz89iuXOOLSzVVc3cOZM2OJVAUs">FYBFM SEM I NOV 2017</a></string>
+    <string name="fybfmsem22018"><a href="https://drive.google.com/open?id=1tTl-gjN0qo49kMlktd-qHvOnzD-kyPmE">FYBFM SEM II APRIL 2018</a></string>
+    <string name="fybafsem22017"><a href="https://drive.google.com/open?id=0B1_zV6bDJrXOamlMNmJLam5pZUU">FYBAF SEM II 2017</a></string>
+    <string name="fybafsem12015"><a href="https://drive.google.com/open?id=0B1_zV6bDJrXOMV9JclRPUXctN2M">FYBAF SEM I 2015</a></string>
+    <string name="sybfmsem42018"><a href="https://drive.google.com/open?id=1mDc8SwzKeyjjltWLoC92766ftL3fD_u5">SYBFM SEM IV APRIL 2018</a></string>
+    <string name="sybfmsem32017"><a href="https://drive.google.com/open?id=1hQTeSryfCJkodU2Or5OY_2LdAFRplRmF">SYBFM SEM III NOV 2017</a></string>
+    <string name="sybafsem42015"><a href="https://drive.google.com/open?id=0B1_zV6bDJrXOVlpfT3JrZVgxVlE">SYBAF SEM IV 2015</a></string>
+    <string name="sybafsem32015"><a href="https://drive.google.com/open?id=0B1_zV6bDJrXOVWhGS1l4akdyak0">SYBAF SEM III 2015</a></string>
+    <string name="tybfmsem62016"><a href="https://drive.google.com/open?id=0B1_zV6bDJrXOaDFLVzBTcEViRjQ">TYBFM SEM VI 2016</a></string>
+    <string name="tybfmsem52016"><a href="https://drive.google.com/open?id=0B1_zV6bDJrXOYUU1Qk16TXRUcmM">TYBFM SEM V 2016</a></string>
+    <string name="tybafsem62015"><a href="https://drive.google.com/open?id=0B1_zV6bDJrXOUlNianB6dXZUUG8">TYBAF UNI SEM VI 2016</a></string>
+    <string name="tybafsem52015"><a href="https://drive.google.com/open?id=0B1_zV6bDJrXONHBxckdQRTBGV00">TYBAF SEM V 2015</a></string>
+    <string name="fybscitsem22017"><a href="https://drive.google.com/open?id=0B1_zV6bDJrXOZEVYSTlnczNPLXM">FYBSCIT SEM II 2017</a></string>
+    <string name="fybscitsem12015"><a href="https://drive.google.com/open?id=0B1_zV6bDJrXORTA5c3dKaDgtV1U">FYBSCIT SEM I 2015</a></string>
+    <string name="sybscitsem42016"><a href="https://drive.google.com/open?id=0B1_zV6bDJrXOdk5Jc1RFcWdEcjA">SYBSCIT SEM IV 2016</a></string>
+    <string name="sybscitsem32015"><a href="https://drive.google.com/open?id=0B1_zV6bDJrXOLWhvUFlVYmpsWjQ">SYBSCIT SEM III 2015</a></string>
+    <string name="tybscitsem62016"><a href="https://drive.google.com/open?id=0B1_zV6bDJrXOVEx3X0pSeWVzSlk">TYBSCIT SEM VI 2016</a></string>
+    <string name="tybscitsem52015"><a href="https://drive.google.com/open?id=0B1_zV6bDJrXOYkd2dllXaDlrNzg">TYBSCIT SEM V 2015</a></string>
+
+
+</resources>
