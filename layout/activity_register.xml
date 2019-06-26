@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/bgc1"
+android:fitsSystemWindows="true"
+    tools:context=".LoginActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/logo_w_h"
+        android:layout_height="@dimen/logo_w_h"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="3dp"
+        android:src="@drawable/icon" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayoutScan"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:padding="6dp"
+        android:layout_marginTop="15dp">
+
+        <Button
+            android:id="@+id/scanner"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/design_default_color_primary_dark"
+            android:gravity="center"
+            android:text="Scan ID card"
+            android:textSize="18sp"
+            android:clickable="true"
+            android:focusable="true"
+            android:textColor="@android:color/white" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        app:errorEnabled="true"
+        android:id="@+id/textInputLayoutEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/backgroundcolor"
+        app:boxStrokeColor="@color/white"
+        android:layout_marginTop="14dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:focusableInTouchMode="true"
+            android:inputType="textEmailAddress"
+            android:textColorHighlight="@color/white"
+            android:textColorLink="@color/white"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayoutSID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/backgroundcolor"
+        app:boxStrokeColor="@color/white"
+        android:layout_marginTop="16dp"
+        app:errorEnabled="true">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/sid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/sid"
+            android:focusableInTouchMode="true"
+            android:singleLine="true"
+            android:inputType="text|number"
+            android:textColor="@android:color/white"
+            android:textColorLink="@color/white"
+            android:textColorHighlight="@color/white"
+            android:textColorHint="@color/white"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayoutPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColorHint="@color/backgroundcolor"
+        app:boxStrokeColor="@color/white"
+        app:errorEnabled="true"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/colorAccent">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true"
+            android:maxLines="1"
+            android:imeOptions="actionUnspecified"
+            android:singleLine="true"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textColorHighlight="@color/white"
+            android:textColorLink="@color/white"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayoutPasswordHint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/backgroundcolor"
+        app:boxStrokeColor="@color/white"
+        android:layout_marginTop="16dp"
+        app:errorEnabled="true">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/passwordhint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password Hint"
+            android:focusableInTouchMode="true"
+            android:singleLine="true"
+            android:inputType="text"
+            android:textColor="@android:color/white"
+            android:textColorLink="@color/white"
+            android:textColorHighlight="@color/white"
+            android:textColorHint="@color/white"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="14dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary"
+        android:foreground="?android:selectableItemBackground"
+        android:text="@string/register" />
+
+    <TextView
+        android:id="@+id/textViewLogin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/back_to_login"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
+
+</android.support.design.widget.CoordinatorLayout>

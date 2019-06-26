@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@drawable/bgc2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-medium"
+                android:freezesText="true"
+                android:gravity="center"
+                android:paddingTop="70dp"
+                android:text="Objective Of Library"
+                android:textColor="@color/colorPrimary"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif"
+                android:textColor="#2d2d2d"
+                android:freezesText="true"
+                android:includeFontPadding="true"
+                android:text="@string/Objective"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-medium"
+                android:freezesText="true"
+                android:gravity="center"
+                android:paddingTop="30dp"
+                android:text="Details about the I.J Patel Library"
+                android:textColor="@color/colorPrimary"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#2d2d2d"
+                android:fontFamily="sans-serif"
+                android:freezesText="true"
+                android:includeFontPadding="true"
+                android:text="
+\nYear of establishment – 1964
+\n
+\nWorking Hours: Monday to Saturday – 7.00 a.m. to 7.00 p.m.
+\n
+\nTotal area 7400 sq. ft. on two floors.
+\n
+\nThe reading room capacity for 300 students. Every table with the facility to plug-in the laptop.
+\n
+\nCentrally air conditioned library with Wi-Fi connectivity and UGC Network Resource Center.
+\n
+\nThe UGC Network Resource Center with five PC terminals is available free of change for accessing databases, OPAC (computerized catalogue) and Internet, strictly as per the rules. The network printer provides the facility to print the pages.
+\n
+\nThe College Library Committee consists of the staff members from Degree College, Junior College, Unaided Courses, Librarian and Assistant Librarian.
+\n
+\nSuggestion Box: Students can drop their recommendations for books and any other suggestions in this box kept near book showcases. The suggestion box opens on every Saturday at 2-00 p.m."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-medium"
+                android:freezesText="true"
+                android:gravity="center"
+                android:paddingTop="30dp"
+                android:text="Collection"
+                android:textColor="@color/colorPrimary"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif"
+                android:textColor="#2d2d2d"
+                android:freezesText="true"
+                android:includeFontPadding="true"
+                android:text="
+\nBooks – 38866 (Net total)65696 (Gross total)
+\n
+\nPeriodicals – 114 (85 journals, 25 Magazines)
+\n
+\nCD-ROMs – 307
+\n
+\nNewspapers -19"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-medium"
+                android:freezesText="true"
+                android:gravity="center"
+                android:paddingTop="30dp"
+                android:text="Library Services"
+                android:textColor="@color/colorPrimary"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif"
+                android:textColor="#2d2d2d"
+                android:freezesText="true"
+                android:includeFontPadding="true"
+                android:text="
+\nThe students can approach the counter for any purpose like Current Reading, Home Issue, Reference or getting information related to any topic of interest.
+\n
+\n
+\nI – GENERAL SERVICES:
+\n
+\n1. Computerised catalogue (OPAC) where one can locate for books according to author, title, publisher, accession number and classification number.
+\n2. The following material is made available from the library counter.
+\n3. Books for current reading
+\n4. Books for home issue for a week
+\n5. Question papers
+\n6. Syllabus
+\n7. Reference sources such as dictionaries, encyclopaedias, yearbooks
+\n8. Competitive Exams related books
+\n9. Books on careers
+\n10. Newspaper clippings on various topics useful for student assignments and projects
+\n11. Reading lists of interested books
+\n12. Bibliographies on various topics
+\n13. CDs.
+\n14. Book Reviews
+\n15. Home lending of books- textbooks and other books.
+\n16. Periodicals – Journals and magazines are displayed in the reading room. Students can read these and sign on the page attached to the periodical. The periodicals are available for reading within the library. However, if any student wants any periodical for home issue, they should contact the person at the counter
+\n17. Daily newspapers are kept at the counter and available for reading to everybody.
+\n18. Electronic Journal Databases (for details please contact Librarian)
+\n19. Reference Service- Students can ask any reference queries to get help to search books on any topic. This service is especially for projects and assignments.
+\n20. Book-Bank- Textbooks are provided for use during one academic year. The books are required to be returned as soon as the exams get over. The application forms are made available from the library counter only during the prescribed dates on the notice put up at the beginning of every year.
+\n21. Reading Room for self-study facility after library hours.
+\n22. Display of newly arrived books near the library entrance.
+\n23. Internet access through UGC Network Resource Center and Wi-Fi. Anybody using these facilities is required to register themselves.
+\n24. Services to ex-students and outside visitors.
+\n
+\n
+\nII – EXTENSION ACTIVITIES:
+\n
+\n1. Inter library loan and referral service for other libraries within Mumbai.
+\n2. CD-ROMs viewing on multimedia computers- any student can view the CDs available in library.
+\n3. Scanning and printing
+\n4. Library newsletter along with articles written by students.
+\n5. Friends of Library students participating in library activities.
+\n6. Exhibition of library books on various topics.
+\n7. Book of the day- Book review with book display in showcase."
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QPaperActivity"
+    android:orientation="horizontal">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_weight="1"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/Webview"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:title="Question Paper">
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <TabHost
+        android:id="@+id/tabHost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="118dp"
+                android:background="@drawable/bgc3"
+                android:focusable="auto"
+                android:paddingTop="50dp">
+
+            </TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/bcom"
+                    android:layout_width="387dp"
+                    android:layout_height="match_parent"
+                    android:outlineAmbientShadowColor="@color/colorPrimary"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:tag="Bcom">
+
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:autoLink="none"
+                        android:text="\nFYBCOM"
+                        android:textSize="22sp"
+                        android:textColor="#2d2d2d"/>
+
+                    <TextView
+                        android:id="@+id/textview9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:linksClickable="true"
+                        android:text="@string/fybcomsem22018"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorLink="@color/colorPrimary"/>
+
+                    <TextView
+                        android:id="@+id/textview10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:linksClickable="true"
+                        android:text="@string/fybcomsem12017"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorLink="@color/colorPrimary"/>
+
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="\nSYBCOM"
+                        android:textSize="22sp"
+                        android:textColor="#2d2d2d"/>
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:linksClickable="true"
+                        android:text="@string/sybcomsem42018"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorLink="@color/colorPrimary"/>
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:linksClickable="true"
+                        android:text="@string/sybcomsem32017"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorLink="@color/colorPrimary"/>
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="\nTYBCOM"
+                        android:textSize="22sp"
+                        android:textColor="#2d2d2d"/>
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:linksClickable="true"
+                        android:text="@string/tybcomsem62018"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorLink="@color/colorPrimary"/>
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:linksClickable="true"
+                        android:text="@string/tybcomsem62017"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorLink="@color/colorPrimary"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/bfm"
+                    android:layout_width="387dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="\nFYBFM"
+                        android:textSize="22sp"
+                        android:textColor="#2d2d2d"/>
+
+                    <TextView
+                        android:id="@+id/textview24"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:linksClickable="true"
+                        android:text="@string/fybfmsem22018"
+                        android:textSize="18sp"
+                        android:textColor="#2d2d2d"
+                        android:textColorLink="@color/colorPrimary"/>
+
+                    <TextView
+                        android:id="@+id/textView26"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:linksClickable="true"
+                        android:text="@string/fybfmsem12017"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorLink="@color/colorPrimary"/>
+
+                    <TextView
+                        android:id="@+id/textView28"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="\nSYBFM"
+                        android:textSize="22sp"
+                        android:textColor="#2d2d2d"/>
+
+                    <TextView
+                        android:id="@+id/textView29"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:linksClickable="true"
+                        android:text="@string/sybfmsem42018"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorLink="@color/colorPrimary"/>
+
+                    <TextView
+                        android:id="@+id/textView30"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:linksClickable="true"
+                        android:text="@string/sybfmsem32017"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorLink="@color/colorPrimary"/>
+
+
+                    <TextView
+                        android:id="@+id/textView33"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="\n\nTYBFM"
+                        android:textSize="22sp"
+                        android:textColor="#2d2d2d"/>
+
+                    <TextView
+                        android:id="@+id/textView34"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:linksClickable="true"
+                        android:text="@string/tybcomsem62018"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorLink="@color/colorPrimary"/>
+
+                    <TextView
+                        android:id="@+id/textView35"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:linksClickable="true"
+                        android:text="@string/tybcomsem62017"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorLink="@color/colorPrimary"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/bms"
+                    android:layout_width="387dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:outlineAmbientShadowColor="@color/colorPrimary"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView43"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="\nFYBMS"
+                        android:textSize="22sp"
+                        android:textColor="#2d2d2d"/>
+
+                    <TextView
+                        android:id="@+id/textView44"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:linksClickable="true"
+                        android:text="@string/fybmssem22017"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorLink="@color/colorPrimary"/>
+
+                    <TextView
+                        android:id="@+id/textView45"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:linksClickable="true"
+                        android:text="@string/fybmssem12016"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorLink="@color/colorPrimary"/>
+
+                    <TextView
+                        android:id="@+id/textView46"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="\nSYBMS"
+                        android:textSize="22sp"
+                        android:textColor="#2d2d2d"/>
+
+                    <TextView
+                        android:id="@+id/textView47"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:linksClickable="true"
+                        android:text="@string/sybmssem42016"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorLink="@color/colorPrimary"/>
+
+                    <TextView
+                        android:id="@+id/textview48"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:linksClickable="true"
+                        android:text="@string/sybmssem32015"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorLink="@color/colorPrimary"/>
+
+                    <TextView
+                        android:id="@+id/textView49"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="\nTYBMS"
+                        android:textSize="22sp"
+                        android:textColor="#2d2d2d"/>
+
+                    <TextView
+                        android:id="@+id/textView50"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:linksClickable="true"
+                        android:text="@string/tybmssem62017"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorLink="@color/colorPrimary"/>
+
+                    <TextView
+                        android:id="@+id/textView51"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:linksClickable="true"
+                        android:text="@string/tybmssem52016"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorLink="@color/colorPrimary"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/baf"
+                    android:layout_width="387dp"
+                    android:layout_height="match_parent"
+                    android:outlineAmbientShadowColor="@color/colorPrimary"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView36"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="\nFYBAF"
+                        android:textSize="22sp"
+                        android:textColor="#2d2d2d"/>
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:linksClickable="true"
+                        android:text="@string/fybafsem22017"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorLink="@color/colorPrimary"/>
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:linksClickable="true"
+                        android:text="@string/fybafsem12015"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorLink="@color/colorPrimary"/>
+
+                    <TextView
+                        android:id="@+id/textView37"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="\nSYBAF"
+                        android:textSize="22sp"
+                        android:textColor="#2d2d2d"/>
+
+                    <TextView
+                        android:id="@+id/textView39"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:linksClickable="true"
+                        android:text="@string/sybafsem42015"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorLink="@color/colorPrimary"/>
+
+                    <TextView
+                        android:id="@+id/textview40"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:linksClickable="true"
+                        android:text="@string/sybafsem32015"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorLink="@color/colorPrimary"/>
+
+                    <TextView
+                        android:id="@+id/textView38"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="\nTYBAF"
+                        android:textSize="22sp"
+                        android:textColor="#2d2d2d"/>
+
+                    <TextView
+                        android:id="@+id/textView41"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:linksClickable="true"
+                        android:text="@string/tybafsem62015"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorLink="@color/colorPrimary"/>
+
+                    <TextView
+                        android:id="@+id/textView42"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:linksClickable="true"
+                        android:text="@string/tybafsem52015"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorLink="@color/colorPrimary"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/bscit"
+                    android:layout_width="387dp"
+                    android:layout_height="match_parent"
+                    android:outlineAmbientShadowColor="@color/colorPrimary"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView52"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="\nFYBSCIT"
+                        android:textSize="22sp"
+                        android:textColor="#2d2d2d"/>
+
+                    <TextView
+                        android:id="@+id/textView53"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:linksClickable="true"
+                        android:text="@string/fybscitsem22017"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorLink="@color/colorPrimary"/>
+
+                    <TextView
+                        android:id="@+id/textView54"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:linksClickable="true"
+                        android:text="@string/fybscitsem12015"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorLink="@color/colorPrimary"/>
+
+                    <TextView
+                        android:id="@+id/textView55"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="\nSYBSCIT"
+                        android:textSize="22sp"
+                        android:textColor="#2d2d2d"/>
+
+                    <TextView
+                        android:id="@+id/textView56"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:linksClickable="true"
+                        android:text="@string/sybscitsem42016"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorLink="@color/colorPrimary"/>
+
+                    <TextView
+                        android:id="@+id/textview57"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:linksClickable="true"
+                        android:text="@string/sybscitsem32015"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorLink="@color/colorPrimary"/>
+
+                    <TextView
+                        android:id="@+id/textView58"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="\nTYBSCIT"
+                        android:textSize="22sp"
+                        android:textColor="#2d2d2d"/>
+
+                    <TextView
+                        android:id="@+id/textView59"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:linksClickable="true"
+                        android:text="@string/tybscitsem62016"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorLink="@color/colorPrimary"/>
+
+                    <TextView
+                        android:id="@+id/textView60"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:linksClickable="true"
+                        android:text="@string/tybscitsem52015"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorLink="@color/colorPrimary"/>
+
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>
